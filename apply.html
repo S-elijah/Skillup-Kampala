@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply | SkillUp Kampala</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .form-container { max-width: 600px; margin: 50px auto; background: white; padding: 30px; border-radius: 20px; }
+        input, select, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 20px; }
+        .btn-submit { background: #da6804; color: rgb(251, 248, 248); border: none; padding: 15px; cursor: pointer; width: 100%; font-size: 1.1rem; border-radius: 20px;}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">SkillUp <span>Kampala</span></div>
+            <ul class="nav-links">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="Courses.html">Courses</a></li>
+                <li><a href="stories.html">Success Stories</a></li>
+                <li><a href="partners.html">Partners</a></li>
+                <li><a href="aboutpage.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <h2>Course Application Form</h2>
+        <form action="#">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+            <label>Phone Number</label>
+            <input type="tel" placeholder="0700 000 000" required>
+            <label>Select Course</label>
+            <select>
+                <option>Mobile Repair (Katwe)</option>
+                <option>Mobile, Video game Application & Robotics Programming</option>
+                <option>Tailoring</option>
+                <option>Automotive Mechanics</option>
+                <option>Full Stack Web Design </option>
+            </select>
+            <label>Why do you want to join this course?</label>
+            <textarea rows="4"></textarea>
+            <button type="submit" class="btn-submit">Submit Application</button>
+        </form>
+    </div>
+<footer>
+        <p>Internet Technology & Web Design by GROUP 26.</p>
+        <p>&copy; 2026 SkillUp Kampala Project.</p>
+    </footer>
+</body>
+</html>
